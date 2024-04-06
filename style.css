@@ -6,13 +6,16 @@
 }
 
 body{
-    height: 100%;
-    background: linear-gradient(to right, #3b1313 50%, #380c0c 50%)
-    fixed;
+    background-image: url("BG-Fear-Hunger.webp");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container{
-    background: #fff;
+    background: #000000;
+    color:#ff0000;
     width: 400px;
     padding: 50px;
     position: absolute;
@@ -25,9 +28,18 @@ body{
     perspective: 300px;
 }
 
+.title{
+    text-align: center;
+    color: #ff0000;
+    font-size: large;
+    padding-bottom: 30px;
+    font-weight: 800;
+    line-height: 25px;
+}
+
 .stats{
     text-align: right;
-    color: #101020;
+    color: #ff0000;
     font-weight: 500;
     line-height: 25px;
 }
@@ -82,7 +94,7 @@ button{
 }
 
 #reset-button{
-    background-color: #fff;
+    background-color: #000000;
     color: #ff0000;
 }
 
